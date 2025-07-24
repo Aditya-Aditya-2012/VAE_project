@@ -1,0 +1,24 @@
+# Python virtual environment
+vae_env/
+__pycache__/
+*.pyc
+
+# Data and Datasets
+# These are often large and should not be tracked by Git.
+# It's better to have a script or instructions on how to download/generate them.
+processed_data/
+Fashion Product Images/
+styles_cleaned.csv
+subcategories.json
+
+# Model checkpoints and generated samples
+# These are artifacts from running the code.
+checkpoints/
+samples/
+
+# EDA (Exploratory Data Analysis) outputs
+# Often contains generated plots and temporary files.
+eda/
+
+# OS-specific files
+.DS_Store
